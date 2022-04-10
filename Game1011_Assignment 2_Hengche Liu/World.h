@@ -12,7 +12,7 @@ class World
 public:
 	World();
 	~World();
-	string ParseCommand(string input, vector<string> options);
+	string ParseCommand(string input);
 	void Command(string input);
 	void UserInput();
 	void Move(string direction);
